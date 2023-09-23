@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main col-sm-4">
+        <div class="search d-flex col-12">
+            <img src="images/search-ico.svg" alt="" onclick="getTemp()">
+            <input type="text" placeholder="City name..." class="form-control" >
+        </div>
+        <div class="p">
+            <p>Input field is empty</p>
+        </div>
+        <div class="thunder">
+            <img src="images/thunderstorm-rain.svg" alt="">
+        </div>
+        <div class="city">
+            <p>Delhi<p>
+        </div>
+        <div class="data col-12">
+            <p>30 °C</p>
+            <p>2.0 KM/H</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
